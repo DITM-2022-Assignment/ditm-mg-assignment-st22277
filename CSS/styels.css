@@ -3,3 +3,9 @@
     width: 100vw;
     height: 50vh;
 }
+
+.div2 {
+    background-color: lightgray;
+    height: 300px;
+    width: 50vw;
+}
