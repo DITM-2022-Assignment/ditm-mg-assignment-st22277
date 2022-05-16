@@ -4,7 +4,7 @@
     height: 50vh;
 }
 
-.top-div {
+.top-div h1 {
     display: flex;
     align-items: center;
     justify-content: center;
