@@ -4,6 +4,12 @@
     height: 50vh;
 }
 
+.top-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .div2 {
     background-color: lightgray;
     height: 300px;
