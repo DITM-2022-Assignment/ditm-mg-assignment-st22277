@@ -1,17 +1,26 @@
-.top-div {
+.navigation-div {
     background-color: thistle;
     width: 100vw;
     height: 50vh;
 }
 
-.top-div h1 {
+.navigation-div ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.div2 {
-    background-color: lightgray;
+.navigation-div ul li{
+    text-decoration: none;
+    color: indigo;
+    transition: 0.3s ease 0s;
+    text-shadow: 5px 5px;
+    box-shadow: 7px 7px 10px 0;color: gold;
+    text-decoration: dotted;
+}
+
+.div-introduction {
+    background-color: blue;
     height: 300px;
     width: 50vw;
 }
