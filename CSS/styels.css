@@ -4,10 +4,11 @@
     height: 50vh;
 }
 
-.navigation-div ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.navigation-div ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 2%;
+    font-style: normal;
 }
 
 .navigation-div ul li{
