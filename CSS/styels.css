@@ -25,3 +25,8 @@
     width: 100vw;
     height: 300px;
 }
+
+.introduction-div > img{
+    max-width: 30rem;
+    max-height: 19.02rem;
+}
