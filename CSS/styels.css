@@ -20,8 +20,8 @@
     text-decoration: dotted;
 }
 
-.div-introduction {
-    background-color: blue;
+.introduction-div{
+    background-color: aqua;
+    width: 100vw;
     height: 300px;
-    width: 50vw;
 }
