@@ -1,6 +1,8 @@
+/*top div = navigation*/
+
 .navigation-div {
-  background-color: thistle;
-  height: 16.5vw;
+  background-color: darkslateblue;
+  height: 3vw;
   width: 100vw;
 }
 
@@ -25,11 +27,11 @@
 
 .navigation-div ul li a {
   text-decoration: none;
-  color: blue;
+  color: coral;
   transition: 0.3s ease 0s;
   text-shadow: 5px 5px;
   box-shadow: 7px 7px 10px 0;
-  color: cornflowerblue;
+  color: coral;
   text-decoration: dotted;
 }
 
@@ -38,23 +40,26 @@
   text-decoration: underline;
 }
 
-.flex {
+/*left div = image or header*/
+.image-div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.flex {
-  width: 100vw;
-  height: 400px;
+.image-div {
+  background-color: royalblue;
+  height: 450px;
+  width: 50vw;
 }
 
-img {
-  height: auto;
-  width: 100vw;
+.image-div > img {
+  max-width: 30rem;
+  max-height: 19.02rem;
 }
 
-.body {
-  margin: 0;
-  padding: 0;
+.bottom-div {
+  background-color: thistle;
+  height: 10vw;
+  width: 100vw;
 }
