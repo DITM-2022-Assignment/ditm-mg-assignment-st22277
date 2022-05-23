@@ -1,32 +1,60 @@
 .navigation-div {
-    background-color: thistle;
-    width: 100vw;
-    height: 50vh;
+  background-color: thistle;
+  height: 16.5vw;
+  width: 100vw;
+}
+
+.navigation-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation-div ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigation-div ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 2%;
-    font-style: normal;
+  list-style-type: none;
+  display: inline-block;
+  margin: 2%;
+  font-style: normal;
 }
 
-.navigation-div ul li{
-    text-decoration: none;
-    color: indigo;
-    transition: 0.3s ease 0s;
-    text-shadow: 5px 5px;
-    box-shadow: 7px 7px 10px 0;color: gold;
-    text-decoration: dotted;
+.navigation-div ul li a {
+  text-decoration: none;
+  color: blue;
+  transition: 0.3s ease 0s;
+  text-shadow: 5px 5px;
+  box-shadow: 7px 7px 10px 0;
+  color: cornflowerblue;
+  text-decoration: dotted;
 }
 
-.introduction-div{
-    background-color: aqua;
-    width: 100vw;
-    height: 300px;
+.navigation-div ul li a:hover {
+  color: chocolate;
+  text-decoration: underline;
 }
 
-.introduction-div > img{
-    max-width: 30rem;
-    max-height: 19.02rem;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex {
+  width: 100vw;
+  height: 400px;
+}
+
+img {
+  height: auto;
+  width: 100vw;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
 }
