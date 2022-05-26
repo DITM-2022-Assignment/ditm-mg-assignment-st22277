@@ -1,4 +1,4 @@
-/*top div = navigation*/
+/*top div = navigation - home div*/
 
 .navigation-div {
   background-color: darkslateblue;
@@ -40,7 +40,7 @@
   text-decoration: underline;
 }
 
-/*left div = image or header*/
+/*left div = image - home page*/
 .image-div {
   display: flex;
   align-items: center;
