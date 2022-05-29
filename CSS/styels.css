@@ -1,7 +1,7 @@
 /*top div = navigation - home div*/
 
 .navigation-div {
-  background-color: darkslateblue;
+  background-color: midnightblue;
   height: 3vw;
   width: 100vw;
 }
@@ -27,17 +27,23 @@
 
 .navigation-div ul li a {
   text-decoration: none;
-  color: coral;
+  color: darkseagreen;
   transition: 0.3s ease 0s;
   text-shadow: 5px 5px;
   box-shadow: 7px 7px 10px 0;
-  color: coral;
+  color: darkseagreen;
   text-decoration: dotted;
 }
 
 .navigation-div ul li a:hover {
-  color: chocolate;
+  color: darkgreen;
   text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*left div = image - home page*/
@@ -48,7 +54,7 @@
 }
 
 .image-div {
-  background-color: royalblue;
+  background-color: darkslateblue;
   height: 450px;
   width: 50vw;
 }
@@ -58,8 +64,30 @@
   max-height: 19.02rem;
 }
 
+.introduction-div {
+  background-color: lightslategrey;
+  height: 450px;
+  width: 50vw;
+}
+
+.introduction-div h1 {
+  color: darkgreen;
+  font-family: fantasy;
+  margin: 2%;
+}
+
+.introduction-div h2 {
+  color: forestgreen;
+  margin: 1.5%;
+}
+
+.introduction-div p {
+  color: darkolivegreen;
+  margin: 1.5%;
+}
+
 .bottom-div {
-  background-color: thistle;
+  background-color: midnightblue;
   height: 10vw;
   width: 100vw;
 }
