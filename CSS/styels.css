@@ -3,7 +3,7 @@
 .navigation-div {
   background-color: midnightblue;
   height: 3vw;
-  width: 100vw;
+  width: 99vw;
 }
 
 .navigation-div {
@@ -90,4 +90,62 @@
   background-color: midnightblue;
   height: 10vw;
   width: 100vw;
+}
+
+/*Problem page*/
+
+.heading-div {
+  background-color: blue;
+  height: 5vw;
+  width: 99vw;
+}
+
+.heading-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-div h1 {
+  color: chartreuse;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2%;
+}
+
+.video-div {
+  background-color: crimson;
+  height: 450px;
+  width: 50vw;
+}
+
+.video-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.paragraph-div {
+  background-color: mediumorchid;
+  height: 450px;
+  width: 50vw;
+}
+
+.paragraph-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.paragraph-div p {
+  color: lightseagreen;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 1.5%;
+}
+
+.bottom-div2 {
+  background-color: aqua;
+  height: 3vw;
+  width: 99vw;
 }
