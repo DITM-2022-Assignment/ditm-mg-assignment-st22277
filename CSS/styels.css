@@ -149,3 +149,52 @@
   height: 3vw;
   width: 99vw;
 }
+
+.title-div {
+  background-color: chartreuse;
+  height: 5vw;
+  width: 99vw;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-div h1 {
+  color: mediumaquamarine;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2%;
+}
+
+.effectslist-div {
+  background-color: lightskyblue;
+  height: 450px;
+  width: 50vw;
+}
+
+.effectslist-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.effectslist-div h1 {
+  color: darkorange;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 2%;
+}
+
+.effectslist-div p {
+  color: hotpink;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 1.5%;
+}
+
+.footer-div {
+  background-color: maroon;
+  height: 10vw;
+  width: 100vw;
+}
