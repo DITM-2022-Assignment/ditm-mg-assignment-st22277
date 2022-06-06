@@ -3,7 +3,7 @@
 .navigation-div {
   background-color: midnightblue;
   height: 3vw;
-  width: 99vw;
+  width: 100vw;
 }
 
 .navigation-div {
@@ -21,17 +21,17 @@
 .navigation-div ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 2%;
+  margin: 5%;
   font-style: normal;
 }
 
 .navigation-div ul li a {
   text-decoration: none;
-  color: darkseagreen;
+  color: aqua;
   transition: 0.3s ease 0s;
-  text-shadow: 5px 5px;
+  /*text-shadow: 5px 5px;*/
   box-shadow: 7px 7px 10px 0;
-  color: darkseagreen;
+  color: mediumseagreen;
   text-decoration: dotted;
 }
 
@@ -88,14 +88,14 @@
 
 .bottom-div {
   background-color: midnightblue;
-  height: 10vw;
+  height: 20vh;
   width: 100vw;
 }
 
 /*Problem page*/
 
 .heading-div {
-  background-color: blue;
+  background-color: darkslateblue;
   height: 5vw;
   width: 99vw;
 }
@@ -107,13 +107,13 @@
 }
 
 .heading-div h1 {
-  color: chartreuse;
+  color: darkgreen;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 2%;
 }
 
 .video-div {
-  background-color: crimson;
+  background-color: lightsteelblue;
   height: 450px;
   width: 50vw;
 }
@@ -126,7 +126,7 @@
 }
 
 .paragraph-div {
-  background-color: mediumorchid;
+  background-color: lightslategrey;
   height: 450px;
   width: 50vw;
 }
@@ -139,62 +139,26 @@
 }
 
 .paragraph-div p {
-  color: lightseagreen;
+  color: darkolivegreen;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: 1.5%;
 }
 
 .bottom-div2 {
-  background-color: aqua;
+  background-color: darkslateblue;
   height: 3vw;
   width: 99vw;
 }
 
-.title-div {
-  background-color: chartreuse;
-  height: 5vw;
-  width: 99vw;
+/*General items CSS*/
+
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
 }
 
-.title-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title-div h1 {
-  color: mediumaquamarine;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 2%;
-}
-
-.effectslist-div {
-  background-color: lightskyblue;
-  height: 450px;
-  width: 50vw;
-}
-
-.effectslist-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
-.effectslist-div h1 {
-  color: darkorange;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 2%;
-}
-
-.effectslist-div p {
-  color: hotpink;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 1.5%;
-}
-
-.footer-div {
-  background-color: maroon;
-  height: 10vw;
-  width: 100vw;
+body {
+  padding: 0;
+  margin: 0;
 }
