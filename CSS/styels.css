@@ -88,7 +88,7 @@
 
 .bottom-div {
   background-color: midnightblue;
-  height: 20vh;
+  height: 12.1vw;
   width: 100vw;
 }
 
@@ -97,7 +97,7 @@
 .heading-div {
   background-color: darkslateblue;
   height: 5vw;
-  width: 99vw;
+  width: 100vw;
 }
 
 .heading-div {
@@ -146,8 +146,8 @@
 
 .bottom-div2 {
   background-color: darkslateblue;
-  height: 3vw;
-  width: 99vw;
+  height: 4.2vw;
+  width: 100vw;
 }
 
 /*General items CSS*/
