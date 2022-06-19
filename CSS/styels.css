@@ -1,8 +1,8 @@
-/*top div = navigation - home div*/
+/*top div = navigation for all divs*/
 
 .navigation-div {
   background-color: midnightblue;
-  height: 3vw;
+  height: 5vw;
   width: 100vw;
 }
 
@@ -20,23 +20,20 @@
 
 .navigation-div ul li {
   list-style-type: none;
-  display: inline-block;
-  margin: 5%;
-  font-style: normal;
+  display: flex;
+  margin: 60%;
+  font-style: initial;
 }
 
 .navigation-div ul li a {
   text-decoration: none;
-  color: aqua;
   transition: 0.3s ease 0s;
-  /*text-shadow: 5px 5px;*/
-  box-shadow: 7px 7px 10px 0;
-  color: mediumseagreen;
+  color: aliceblue;
   text-decoration: dotted;
 }
 
 .navigation-div ul li a:hover {
-  color: darkgreen;
+  color: aliceblue;
   text-decoration: underline;
 }
 
@@ -46,7 +43,7 @@
   justify-content: center;
 }
 
-/*left div = image - home page*/
+/*Images used on home page*/
 .image-div {
   display: flex;
   align-items: center;
@@ -62,6 +59,18 @@
 .image-div > img {
   max-width: 30rem;
   max-height: 19.02rem;
+}
+
+.image-div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-div1 {
+  background-color: blue;
+  height: 45px;
+  width: 25vw;
 }
 
 .introduction-div {
