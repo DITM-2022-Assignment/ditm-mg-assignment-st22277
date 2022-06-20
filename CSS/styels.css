@@ -53,12 +53,12 @@
 .image-div {
   background-color: darkslateblue;
   height: 450px;
-  width: 50vw;
+  width: 25vw;
 }
 
 .image-div > img {
-  max-width: 30rem;
-  max-height: 19.02rem;
+  height: 450px;
+  width: 25vw;
 }
 
 .image-div1 {
@@ -68,15 +68,56 @@
 }
 
 .image-div1 {
-  background-color: blue;
-  height: 45px;
+  background-color: aquamarine;
+  height: 450px;
   width: 25vw;
 }
 
+.image-div1 > img {
+  height: 450px;
+  width: 25vw;
+}
+
+.image-div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-div2 {
+  background-color: blue;
+  height: 450px;
+  width: 25vw;
+}
+
+.image-div2 > img {
+  height: 450px;
+  width: 25vw;
+}
+
+.image-div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-div3 {
+  background-color: blueviolet;
+  height: 450px;
+  width: 25vw;
+}
+/*same height and width as the div so the image
+ will fill up the whole div*/
+.image-div3 > img {
+  height: 450px;
+  width: 25vw;
+}
+
+/*editing the introduction div*/
 .introduction-div {
   background-color: lightslategrey;
   height: 450px;
-  width: 50vw;
+  width: 100vw;
 }
 
 .introduction-div h1 {
@@ -102,7 +143,6 @@
 }
 
 /*Problem page*/
-
 .heading-div {
   background-color: darkslateblue;
   height: 5vw;
