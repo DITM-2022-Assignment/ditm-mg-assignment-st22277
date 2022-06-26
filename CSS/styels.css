@@ -213,21 +213,3 @@ body {
 }
 
 /*effects page*/
-
-.title-div {
-  background-color: aquamarine;
-  height: 5vw;
-  width: 100vw;
-}
-
-.title-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.title-div h1 {
-  color: blue;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 2%;
-}
