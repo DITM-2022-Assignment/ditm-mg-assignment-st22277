@@ -2,7 +2,7 @@
 
 .navigation-div {
   background-color: midnightblue;
-  height: 5vw;
+  height: 10vh;
   width: 100vw;
 }
 
@@ -123,7 +123,8 @@
 .introduction-div h1 {
   color: darkgreen;
   font-family: fantasy;
-  margin: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
 }
 
 .introduction-div h2 {
@@ -138,7 +139,7 @@
 
 .bottom-div {
   background-color: midnightblue;
-  height: 12.1vw;
+  height: 10vh;
   width: 100vw;
 }
 
@@ -213,3 +214,38 @@ body {
 }
 
 /*effects page*/
+.information-div1 {
+  background-color: lightgrey;
+  height: 40vh;
+  width: 33.3vw;
+}
+
+.information-div1 p {
+  font-family: fantasy;
+  color: black;
+  margin: 2%;
+}
+
+.information-div2 {
+  background-color: aqua;
+  height: 40vh;
+  width: 33.3vw;
+}
+
+.information-div2 p {
+  font-family: fantasy;
+  color: black;
+  margin: 2%;
+}
+
+.information-div3 {
+  background-color: blueviolet;
+  height: 40vh;
+  width: 33.3vw;
+}
+
+.information-div3 p {
+  font-family: fantasy;
+  color: black;
+  margin: 2%;
+}
