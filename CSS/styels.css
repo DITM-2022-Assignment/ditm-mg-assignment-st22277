@@ -214,6 +214,7 @@ body {
 }
 
 /*effects page*/
+/*top divs in flex*/
 .information-div1 {
   background-color: lightgrey;
   height: 40vh;
@@ -247,5 +248,42 @@ body {
 .information-div3 p {
   font-family: fantasy;
   color: black;
+  margin: 2%;
+}
+
+/*div in the middle*/
+.information-div4 {
+  background-color: coral;
+  height: 40vh;
+  width: 33.3vw;
+}
+
+.information-div4 p {
+  font-family: fantasy;
+  color: black;
+  margin: 2%;
+}
+
+.heading-div1 {
+  background-color: darkgreen;
+  height: 40vh;
+  width: 33.3vw;
+}
+
+.heading-div1 h1 {
+  color: black;
+  font-family: fantasy;
+  margin: 2%;
+}
+
+.information-div5 {
+  background-color: hotpink;
+  height: 40vh;
+  width: 33.3vw;
+}
+
+.information-div5 p {
+  color: black;
+  font-family: fantasy;
   margin: 2%;
 }
